@@ -1,0 +1,862 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hi rasa
+    - hi bot 
+    - hello rasa 
+    - hello bot 
+
+- intent: ask_how_are_you
+  examples: |
+    - how are you?
+    - how are you rasa?
+    - how do you do?
+    - how about you?
+    - are you okay?
+    - are you fine?
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - Im fine
+    - Im okay
+    - Im cool
+    - It's okay
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - Im fine 
+    - Im okay
+    - okay
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+
+- intent: ask_about_college
+  examples: |
+    - tell me about ucek?
+    - tell about ucek?
+    - talk about ucek?
+    - brief about ucek?
+    - College Details
+    - Can you tell me about the college?
+    - Tell me about college
+    - Tell the details of the college
+    - Tell me about ucek
+    - Tell the details of ucek
+    - Tell us about ucek
+    - talk about the college 
+    - give information about the college 
+    - give information about ucek 
+
+- intent: ask_about_courses
+  examples: |
+    - What courses does the college offer?
+    - Can you tell me about the courses offered here?
+    - Which courses are available in this college?
+    - What are the different courses provided here?
+    - What are the courses that I can take up if I join UCEK?
+    - Can you tell me about the undergraduate programs offered at UCEK?
+    - What are the different UG programs available at UCEK?
+    - courses?
+    - courses list?
+    - list courses?
+    - UG programs?
+    - UG courses?
+    - Under graduate courses?
+    - programs?
+    - programs list?
+    - What courses are there to study in ucek
+    - Here's what to learn
+    - whats here to learn 
+    - tell name of courses offered 
+
+- intent: inquire_btech_subjects
+  examples: |
+    - What are the core subjects in a BTech course?
+    - What are the main subjects in a BTech course?
+    - What are the core subjects in a engineering?
+    - What are the main subjects in a engineering?
+    - Can you tell me about the different subjects in the BTech program?
+    - What is the structure of the BTech program?
+    - What streams of engineering are available?
+    - What are the streams available in this course?
+    - Can you tell me about the different streams in this degree program?
+    - What are the specializations offered in engineering?
+    - Which streams are available in engineering?
+    - Which subjects are available in engineering?
+    - What departments are there in engineering?
+    - What departments are there in BTECH?
+    - Various subjects available for engineering?
+    - What are the subjects available?
+    - Different subjects?
+    - What are the subjects to study here?
+    - What are the subjects to study?
+
+- intent: inquire_cse_department
+  examples: |
+    - Can you give me information about the cse department?
+    - Tell me about the cse department 
+    - Give details about the cse department
+    - CSE department
+    - information about the cse department
+    - cse department details
+    - cse dept
+
+- intent: cse_faculty
+  examples: |
+    - Who are the teaching faculty of cse department?
+    - Teachers of cse department?
+    - Teaching staffs of cse?
+    - Can you tell me about the faculty members in the CS department?
+    - Who are the professors teaching in the CS department?
+    - Could you give me more information about the faculty of the CS department?
+    - What are the names of the faculty members in the CS department?
+    - Can you provide an overview of the faculty in the CS department?
+    - staffs of cse department?
+    - cse teachers
+    - cs teachers
+    - list of cse teachers
+    - list of computer engineering staffs
+    - Who are the teachers who teach in cse
+    - cse teachers
+    - Those who teach in cse
+
+- intent: cse_non_teaching_faculty
+  examples: |
+    - Who are the non-teaching faculty of cse department?
+    - non teaching cse faculty?
+    - cse non teaching faculty?
+    - non teaching faculty of cse department?
+
+- intent : cse_laboratory
+  examples: |
+    - What are the lab facility of cse department?
+    - lab for cse department?
+    - cse lab?
+    - give me information about the cse lab
+    - cse lab details
+    - tell me about the computer labs
+    - give me information about the computer labs
+    - computer lab in colllege
+    - computer labs in UCEK
+    - are there computer labs in UCEK?
+
+- intent: inquire_about_cse_head 
+  examples: |
+    - Who is the head of the CSE department?
+    - What is the name of the professor leading the CSE department?
+    - Can you provide me with the contact details of the head of CSE department?
+    - What is the qualification and experience of the head of CSE department?
+    - Who is the person responsible for managing the CSE department?
+    - What is the role of the head of CSE department?
+    - cse hod
+    - in charge of cse department
+    - HOD of cse department
+    - CS hod
+    - in charge of CS department
+    - HOD of CS department
+    
+- intent: inquire_ec_department
+  examples: |
+    - Can you give me information about the ec department?
+    - information about ec department
+    - tell me about EC department
+    - Can you give me information about the ece department?
+    - information about ece department
+    - tell me about ECE department
+    - ECE department
+    - EC department
+    - give details about EC department
+    - give details about ECE department
+    - ec department details
+    - ece department details
+    - ece dept
+    - ec dept
+
+- intent: ec_faculty
+  examples: |
+    - Who are the teaching faculty of ec department?
+    - Teachers of ec department?
+    - Teaching staffs of ec?
+    - Can you tell me about the faculty members in the EC department?
+    - Who are the professors teaching in the EC department?
+    - Could you give me more information about the faculty of the EC department?
+    - What are the names of the faculty members in the EC department?
+    - Can you provide an overview of the faculty in the EC department?
+    - EC department faculty
+    - EC department teachers
+    - Who are the teachers in the EC department?
+    - ECE faculty members
+    - Who are the teachers who teach in ece
+    - ece teachers
+    - ece teachers
+    - Those who teach in ece
+
+- intent: ec_non_teaching_faculty
+  examples: |
+    - Who are the non-teaching faculty of ec department?
+    - non teaching ec faculty?
+    - non teaching faculty of ECE department?
+    - Are there any non-teaching faculty members in the EC department?
+    - EC department non-teaching faculty members
+    
+
+- intent : ec_laboratory
+  examples: |
+    - What are the lab facility of ec department?
+    - lab for ec department?
+    - ec lab?
+    - ec department details
+    - give me information about the ec department lab
+    - ece labs
+    - tell me about the lab facility of ec department
+
+- intent: inquire_about_ec_head 
+  examples: |
+    - Who is the head of the ECE department?
+    - What is the name of the professor leading the ECE department?
+    - Can you provide me with the contact details of the head of ECE department?
+    - What is the qualification and experience of the head of ECE department?
+    - Who is the person responsible for managing the ECE department?
+    - What is the role of the head of ECE department?
+    - ece hod
+    - in charge of ece department
+    - HOD of ece department
+    - ec hod
+    - in charge of ec department
+    - HOD of ec department
+
+- intent: inquire_it_department
+  examples: |
+    - Can you give me information about the IT department?
+    - information about IT department
+    - tell me about IT department
+    - Can you give me information about the IT department?
+    - information about IT department
+    - tell me about IT department
+    - IT department
+    - give details about IT department
+    - IT department details
+    - IT dept
+
+- intent: it_faculty
+  examples: |
+    - Who are the teaching faculty of it department?
+    - Teachers of it department?
+    - Teaching staffs of it?
+    - Can you tell me about the faculty members in the IT department?
+    - Who are the professors teaching in the IT department?
+    - Could you give me more information about the faculty of the IT department?
+    - What are the names of the faculty members in the IT department?
+    - Can you provide an overview of the faculty in the IT department?
+    - IT department faculty
+    - IT department teachers
+    - Who are the teachers in the IT department?
+    - IT faculty members
+    - Information Technology Department staffs
+    - Information Technology Department teachers
+    - Who are the teachers who teach in IT
+    - IT teachers
+    - Those who teach in IT
+
+- intent: it_non_teaching_faculty
+  examples: |
+    - Who are the non-teaching faculty of it department?
+    - non teaching it faculty?
+    - non teaching faculty of IT department?
+    - Are there any non-teaching faculty members in the IT department?
+    - IT department non-teaching faculty members
+    - Information Technology department non teaching faculty members
+
+- intent : it_laboratory
+  examples: |
+    - What are the lab facility of it department?
+    - lab for it department?
+    - it lab?
+    - it department details
+    - give me information about the it department lab
+    - IT labs
+    - Information Technology department labs
+    - laboratories in IT department
+    - tell me about the lab facility of IT department
+
+- intent: inquire_about_it_head 
+  examples: |
+    - Who is the head of the IT department?
+    - What is the name of the professor leading the IT department?
+    - Can you provide me with the contact details of the head of IT department?
+    - What is the qualification and experience of the head of IT department?
+    - Who is the person responsible for managing the IT department?
+    - What is the role of the head of IT department?
+    - IT hod
+    - IT  department hod
+    - in charge of IT department
+    - HOD of IT department
+    - IT head of the department
+    - Head of the department of IT batch
+    - in charge of IT department
+    - HOD of IT department
+
+- intent: inquire_general_department
+  examples: |
+    - Can you give me information about the general department?
+    - general department
+    - is there any general department in UCEK?
+    - What subjects are taught in the general department?
+    - What is the curriculum for general department students?
+    - subjects taught in the general department
+    - general department subjects
+    - general department information
+    - information about the general department
+    - Tell me about the general department
+    - UCEK general department
+    - general department details 
+    - general department information 
+    - information about the general department at ucek 
+    - information about the general department at college 
+    - details about the general department at ucek 
+    - details about the general department at college 
+
+- intent: general_faculty
+  examples: |
+    - Who are the teaching faculty of general department?
+    - General department teachers
+    - General department staffs
+    - Teachers of general department?
+    - Teaching staffs of general?
+
+- intent: general_non_teaching_faculty
+  examples: |
+    - Who are the non-teaching faculty of general department?
+    - non teaching general faculty?
+    - general department non teaching faculty
+    - non teaching faculty of general department
+    - non teaching staffs of general department
+ 
+- intent: inquire_about_laboratories
+  examples: |
+    - Can you give me information about laboratories?
+    - What kind of laboratory facilities does the college have?
+    - How many laboratories does the college have? 
+    - Are the laboratory facilities modern and well-equipped? 
+    - Give me information about labs 
+    - Is there lab facility for students?
+    - Are there laboratories in the college?
+    - Tell me about lab facility for students
+
+- intent: inquire_about_faculty 
+  examples: |
+    - Can you tell me about the faculty members in all departments?
+    - Who are the professors teaching in all departments?
+    - Could you give me more information about the faculty of all departments?
+    - Can you provide an overview of the faculty at UCEK?
+    - Tell me more about the faculty.
+    - Tell me about teachers.
+    - Tell me about the staff.
+    - Are the teachers skilled?
+    - Qualification of the staff
+    - Are the teachers qualified?
+    - Is the faculty qualified?
+
+- intent: inquire_about_location
+  examples: |
+    - Where is the college located?
+    - What is the address of the college?
+    - How do I get to the college?
+    - Is there a campus map available?
+    - What is the nearest metro station?
+    - How can we contact 
+    - Address 
+    - What is the mail id of the college
+    - How to contact? 
+    - college location
+    - college place
+    - where is the college situated?
+    - how to reach the college?
+
+- intent: history
+  examples: |
+    - What is the history of the college?
+    - When was the college first established?
+    - The year college was launched?
+    - college history
+    - history of ucek
+
+- intent: vision_and_mission
+  examples: |
+    - What is the mission of the college?
+    - What is the vision of the college?
+    - What is the long term aim of the college?
+    - vision
+    - mission
+    - mission of ucek
+    - vision of ucek
+    - aim of ucek
+    - goal of ucek
+    - whats the main goal of ucek?
+
+- intent: principal
+  examples: |
+    - Who is the principal of the college?
+    - principal
+    - who is the principal of ucek?
+    - who is the principal?
+    - Whats the name of your principal?
+    - principal at ucek right now
+
+- intent: UG_Dean
+  examples: |
+    - Who is the UG Dean of the college?
+    - UG Dean
+
+- intent: office
+  examples: |
+    - What is the office working hour?
+    - What is the college office time?
+    - Who are the office staffs?
+    - college office 
+    - college office details 
+    - college office information 
+    - office working hours 
+    - office information
+    - office 
+     
+- intent: ranks
+  examples: |
+    - Who are the rank holders?
+    - Does the college hold any university ranks?
+    - Ranks?
+    - university ranks
+    - rank holders of ucek
+    - student ranks 
+    - all kerala ranks 
+    - rank holder 
+    - is there any student with rank at ucek
+    - has any student got a rank at ucek 
+    - has any student got a state rank at ucek 
+    - has any student got a university rank at ucek 
+
+- intent: PTA
+  examples: |
+    - PTA cell?
+    - details about the college PTA
+    - is PTA cell active?
+    - Is there a PTA cell
+    - Parent Teachers Association of UCEK
+    - How to become a member of PTA Association at UCEK
+    - PTA of the college
+ 
+- intent: facilities
+  examples: |
+    - What are the different facilities the college provide?
+    - College facilites
+    - facilities?
+    - What study facilities are there in the college?
+    - What learning facilities are there in the college?
+    - learning facilities at ucek 
+    - learning facilities at college 
+    - campus facilities
+
+- intent: scholarship
+  examples: |
+    - Does the college provide any scholarships?
+    - scholarship
+    - What resources are available for obtaining information about financial aid options at your college?
+    - Could you provide guidance on where to find information about financial assistance at your college?
+    - I'm interested in learning about the avenues to gather information regarding financial aid at your college.
+    - May I inquire about the specific channels for obtaining information about financial aid options at your college?
+    - How can I figure out the financial aid situation at your college?
+    - Can you tell me where to look for info about getting some financial help?
+    - I wanna know how to score some money for college. Any tips?
+    - How to know about financial aid at your college?
+    - Can you point me in the right direction to find out about financial aid options?
+    - info about financial aid options at your college?
+    - info about scholarships in your college
+    - Is there any financial aid?
+    - Are there any scholarships?
+    - Can I get scholarship to join?
+    - Is there any way to study for free at UCEK?
+    - financial assistance
+    - scholarship assistance 
+    - financial guide
+    - scholarship guide
+    - assistance for fees 
+    - financial assistance
+    - financial aid 
+     
+- intent: college_bus
+  examples: |
+    - does the college have bus service?
+    - bus route
+    - college bus
+    - college bus details
+    - is there bus route towards this place?
+    - is college bus available at this location?
+    - travel to college 
+    - is there bus route via some place 
+    - bus route details 
+    - college bus route 
+    - college bus info 
+    - college bus driver 
+    - college bus timing 
+    - ucek college bus 
+    - ucek bus timings 
+    - ucek bus stops 
+    - college bus stops 
+    - college bus fare 
+    - bus fare 
+    - bus concession 
+    - travel convession 
+
+- intent: canteen
+  examples: |
+    - Does the college have canteen facilities?
+    - Food services
+    - canteen facilities
+    - is there canteen facilities at ucek?
+    - is there canteen in the college?
+    - college canteen details
+    - canteen details
+    - food 
+    - eat at campus 
+    - food at campus 
+    - is there any place to eat at ucek 
+    - is there any place to eat at the college 
+    - place to eat at the college
+    - place to eat at ucek 
+    - food spot at ucek 
+    - food area at ucek 
+    - eat at ucek 
+    - eat at college 
+    - do i have to bring food 
+    - do i have to carry food 
+    - will there be canteen to eat 
+    - food stalls 
+
+- intent: library
+  examples: |
+    - does the college have library?
+    - library working hours
+    - college library
+    - library membership
+    - how to get membership at college library?
+    - how to join the college library?
+    - tell me about ucek library
+    - library of ucek
+    - study materials for students
+    - What are the procedures for accessing the library and utilizing its resources at your college?
+    - Could you provide information on how students can make use of the library and its resources at your college?
+    - I'm interested in learning about the protocols and resources available at the library of your college.
+    - Can you tell me how to use the library?
+    - I wanna know if I can get some books from your college library.
+    - Does your college have a library facility on campus?
+    - Could you provide information about the library resources at your college?
+    - I'm interested in knowing if there is a library available on your college campus.
+    - May I inquire about the presence of a library at your college?
+    - Is there, like, a library at your college?
+    - Can you tell me if I can find books on campus?
+    - I wanna know if there's a library where I can study at your college.
+    - Is there a place with books and stuff on campus?
+   
+- intent: anti_ragging_cell
+  examples: |
+    - does the college have an anti ragging cell?
+    - anti ragging cell
+    - is there ragging in ucek
+    - ragging
+    - anti ragging
+    - ragging cell
+    - is there ragging in ucek
+    - is there ragging at college
+    - college ragging
+    - ucek ragging
+    - senior issues 
+    - senior fights 
+    - fights with senior 
+   
+- intent: clubs
+  examples: |
+    - What are the different clubs for students?
+    - Arts club
+    - Literacy and debate club
+    - CSI
+    - What does the arts club do?
+    - college clubs
+    - clubs of ucek
+    - various clubs at college
+    - are there any clubs at ucek
+    - is there any clubs at ucek for me to join?
+    - ucek clubs
+
+- intent: ec_syllabus
+  examples: |
+    - What is the syllabus for first semester ec?
+    - What is the syllabus for second semester ec?
+    - What is the syllabus for third semester ec?
+    - What is the syllabus for fourth semester ec?
+    - What is the syllabus for fifth semester ec?
+    - What is the syllabus for sixth semester ec?
+    - What is the syllabus for seventh semester ec?
+    - What is the syllabus for eight semester ec?
+    - ec department syllabus
+    - study materials for ec department
+
+- intent: cse_syllabus
+  examples: |
+    - What is the syllabus for first semester cse?
+    - What is the syllabus for second semester cse?
+    - What is the syllabus for third semester cse?
+    - What is the syllabus for fourth semester cse?
+    - What is the syllabus for fifth semester cse?
+    - What is the syllabus for sixth semester cse?
+    - What is the syllabus for seventh semester cse?
+    - What is the syllabus for eight semester cse?
+    - cs department syllabus
+    - study materials for cs department
+
+- intent: it_syllabus
+  examples: |
+    - What is the syllabus for first semester it?
+    - What is the syllabus for second semester it?
+    - What is the syllabus for third semester it?
+    - What is the syllabus for fourth semester it?
+    - What is the syllabus for fifth semester it?
+    - What is the syllabus for sixth semester it?
+    - What is the syllabus for seventh semester it?
+    - What is the syllabus for eight semester it?
+    - it department syllabus
+    - study materials for it department
+
+- intent: sports
+  examples: |
+    - what are the sports event held by the college?
+    - does the college have sports team?
+    - football team?
+    - cricket team?
+    - volleyball team?
+    - sports event?
+    - is there any sports events?
+    - sports 
+    - cricket 
+    - football 
+    - volleyball 
+    - hockey 
+    - badminton 
+    - tennis 
+    - basketball 
+    - sports events 
+    - sports programs 
+    - sports clubs 
+    - sports organizations 
+    - sports area 
+    - sports arena 
+    - ground 
+    - college ground 
+    - playing at college ground
+    - playing at college 
+    - playing at ucek 
+    - sports at ucek 
+    - cricket at ucek 
+    - football at ucek 
+    - sports events at ucek 
+    - is there any sports activities at ucek 
+  
+- intent: NSS
+  examples: |
+    - what are the nss activities?
+    - does the college have a nss unit
+    - nss events?
+    - nss activities
+    - nss 
+
+- intent: cells
+  examples: |
+    - What all cells does the college have?
+    - does the college have any cells?
+    - IEDC?
+    - IEEE?
+    - Student grievance cell
+    - Women empowerment cell
+    - anti-narco cell
+    - FOSS cell
+
+- intent: placement_cell
+  examples: |
+    - placement cell
+    - How does the placement cell of the college work?
+    - What is the role of the placement cell in assisting students with their job placements?
+    - How often do companies visit the college for placements?
+    - What types of companies visit the college for placements?
+    - How does the placement cell prepare students for interviews and placements?
+    - Are internships included in the placement cell's activities?
+    - Can the placement cell help me with resume building and interview preparation?
+    - How successful has the placement cell been in the past in securing job placements for students?
+    - Are there any specific training programs or workshops organized by the placement cell to enhance students' employability?
+    - Can the placement cell help with off-campus job placements as well?
+    - What are the available methods for contacting the placement cell at your college?
+    - Could you provide information on the contact details for the placement cell at your college?
+    - contact placement cell of college
+    - contact placement cell at ucek 
+    - contat information of placement cell
+    - I'm interested in knowing how I can get in touch with the placement cell at your college.
+    - placement cell details
+    - May I inquire about the how to contact the placement cell at your college?
+    - Can you tell me how to get in touch with the placement cell?
+    - placement cell contact info?
+    - could you share placement cell information?
+
+- intent: job_placement 
+  examples: |
+    - Tell me about college placements?
+    - is career guidance available at your college?
+    - is there any support for placements?
+    - placement
+    - placement in companies
+    - companies coming for placement
+    - placement support
+    - career guidance
+    - career support
+    - on campus recruitment
+    - recruitment drives
+    - Can you tell me about the job help and stuff?
+    - Mind sharing the info on career counseling and job placement resources at your college?
+
+- intent: campus_hostel 
+  examples: |
+    - What types of on-campus housing options are available for students at your college?
+    - is there accomodation available for students?
+    - is student accomodation available?
+    - Can i stay at college?
+    - Can my child live at college?
+    - Is there any way my child 
+    - Could you provide information on the various on-campus housing choices for students at your college?
+    - campus housing?
+    - staying at campus?
+    - stay at campus?
+    - stay provided on-campus for students at your college.
+    - May I inquire about the specific on-campus housing facilities and choices at your college?Can I live on campus at your college?
+    - What are my options for staying on campus?
+    - Can I stay at the campus?
+    - Mind sharing the info on staying on campus at your college?
+    - campus hostel
+    - college hostel
+    - is there hostel facility in campus?
+    - is there hostel facility in college?
+    - is there hostel facility at ucek?
+
+- intent: how_to_apply_to_college 
+  examples: |
+    - How can I submit an application to your college?
+    - What is the process for applying to your college?
+    - Could you please provide information on applying to your college?
+    - Hey, how do I apply to your college?
+    - Can you tell me how to get into your college?
+    - submit application to join
+    - Im interested in joining ucek
+    - Im interested in joining this college
+    - How can i join UCEK?
+    - How to join?
+    - How to join UCEK?
+    - What should i do to join ucek?
+    - Whom should I contact to join ucek?
+    - I'm interested in your college. What's the deal with applying?
+    - Yo, what's the lowdown on applying to your college?
+    - How to apply?
+    - Can you guide me on how to start the application process for your college?
+    - I'm curious about how to kickstart my application to your college.
+    - How to register?
+    - Can I join ucek?
+    - What are the steps to apply for admission to your college?
+    - Is there an online application for your college that I can fill out?
+    - How to apply to join UCEK?
+    - Application process to join UCEK
+    - I would like to know how to initiate the college application process.
+
+- intent: extracurricular_activities 
+  examples: |
+    - What opportunities are available for students to get involved in extracurricular activities on campus at your college?
+    - extracurricular activities
+    - extracurricular activities in campus
+    - extracurricular activities at ucek
+    - Could you provide information on the extracurricular programs and organizations offered to students at your college?
+    - I'm interested in learning about the options for participating in extracurricular activities while attending your college.
+    - participating in extracurricular activities
+    - May I inquire about the specific extracurricular opportunities and involvement at your college?
+    - I wanna get involved in some activities. What's the deal at your college?
+    - Are there any fun clubs or activities at your college?
+    - Can I get in on some extracurricular action at your college?
+    - Can you fill me in on the opportunities to do fun stuff on campus?
+    - What are the chances of getting involved in some cool activities at your college?

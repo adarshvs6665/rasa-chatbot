@@ -1,0 +1,229 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - ask_about_courses
+  - inquire_btech_subjects
+  - inquire_cse_department
+  - cse_faculty
+  - cse_non_teaching_faculty
+  - cse_laboratory
+  - inquire_about_cse_head 
+  - inquire_ec_department
+  - ec_faculty
+  - ec_non_teaching_faculty
+  - ec_laboratory
+  - inquire_about_ec_head
+  - inquire_it_department
+  - it_faculty
+  - it_non_teaching_faculty
+  - it_laboratory
+  - inquire_about_it_head
+  - action_default_fallback
+  - inquire_general_department
+  - general_faculty
+  - general_non_teaching_faculty
+  - general_laboratory
+  - inquire_about_laboratories
+  - inquire_about_faculty
+  - inquire_about_location
+  - history
+  - vision_and_mission
+  - principal
+  - UG_Dean
+  - office
+  - ranks
+  - PTA
+  - facilities
+  - scholarship
+  - college_bus
+  - canteen
+  - library
+  - anti_ragging_cell
+  - clubs
+  - ec_syllabus
+  - cse_syllabus
+  - it_syllabus
+  - sports
+  - NSS
+  - cells
+  - placement_cell
+  - job_placement
+  - campus_hostel
+  - how_to_apply_to_college
+  - extracurricular_activities
+
+responses:
+
+  utter_extracurricular_activities:
+  - text: "Our college offers a wide range of extracurricular activities, including annual football, cricket, and volleyball tournaments, as well as cultural festivals. We also have diverse skill-improvement clubs, providing students with opportunities for personal growth and a vibrant campus experience."
+
+  utter_how_to_apply_to_college:
+  - text: "Admission to the college can be obtained through two channels: merit seats and management seats. Merit seats are awarded by the government based on performance in the <preserve>KEAM</preserve> entrance exam, while management seats offer direct admission based on institution-specific criteria. These options provide candidates with different pathways to pursue their academic goals."
+
+  utter_campus_hostel:
+  - text: "Currently, <preserve>UCEK</preserve> does not provide any sort of on-campus accommodation facilities. However, we will provide assistance in finding suitable hostel facilities."
+
+  utter_job_placement:
+  - text: The Career Guidance & Placement Unit <preserve>(CGPU)</preserve> of the college is working as a team under the leadership of the Coordinator, the Committee Members of each Department and a batch of dedicated students. The students of the college are getting regular placements in many multinational companies like <preserve>TCS, IBM, INFOSYS, UST GLOBAL, WIPRO, IBS, SPERIDIAN, CTS</preserve> etc.
+
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "My name is {BotName}. I'm here to help you with your queries."
+
+  utter_courses:
+  - text: "<preserve>UCEK</preserve> provides industrial oriented professional programs in Engineering with high class facilities for a low cost compared to other colleges. For more information visit <a>http://www.ucek.in/courses</a>"
+  
+  utter_inquire_btech_subjects:
+  - text: "In <preserve>UCEK</preserve>, students can choose to specialize in one of three streams: Computer Science & Engineering, Electronics & Communication Engineering and Information Technology Engineering."
+  
+  utter_inquire_cse_department:
+  - text: "Department of CSE was started in the year 2000 with an intake of 60 students for UG program. The department is offering the required knowledge and skill set to the students with an aim to accomplish a good professional successful career. Department has good interactions and MOUs with technology domain industries. Computer Sciences department is very happy to claim that highly talented students got placed in various multinational companies."
+  
+  utter_cse_faculty:
+  - text: "<preserve>Smt. Divya D. T.( Head Of Department), Smt. Minu J. Mohan, Smt. Suma C. S, Smt.Shijida Shain,Sri. Syam Sasankan, Rekhamole G, Drishya S. S, Sumisha M. S, Rajimol V, Manu V. Kumar, Nimmy Thomas, Nimmi Kokila M V, Gargy G.</preserve>. For further details visit this link <a>http://ucek.in/faculty.php?did=2</a>"
+
+  utter_cse_non_teaching_faculty:
+  - text: "<preserve>Smt. Sajith Kumari L, Smt. Asha K. S</preserve>. For further details visit <a>http://ucek.in/nonTeachingFaculty.php?did=2</a>"
+
+  utter_cse_laboratory:
+  - text: "The department has well equipped laboratories with modern computers and other computing equipments like switches, Routers, etc. Computers are networked to help the students to share the resources in the lab. Software like <preserve>Java, SQL</preserve> etc are installed in the lab. Labs are fully air-conditioned and are monitored closely by efficient technical staff."
+
+  utter_inquire_about_cse_head:
+  - text: "The current head of the CSE department is <preserve>Smt. Divya DT</preserve>. She has been with the department for a long period and has extensive experience in both academia and industry. She's known for his innovative teaching methodsand is a dedicated mentor to both students and faculty and is always willing to lend a helping hand."
+
+  utter_inquire_ec_department:
+  - text: "Electronics and Communication Engineering is an engineering discipline providing the knowledge on theoretical and practical aspects of different areas in Electronics & Communication Engineering.The department has an intake of 60 students per year. The department consists of highly qualified, dedicated and experienced faculty members. We aim at educating students with sound knowledge and awareness in the latest trend in electronics."
+
+  utter_ec_faculty:
+  - text: "Smt. Indusalini G(Head Of Department), Smt. Rohini P. S., Smt. Anu Antony, Smt. Anila Soman, Sajitha Rani G. L, Aswathy V, Kannan S, Haseena Beegum S, Vidya S, Anu S. Ram. For further details visit link <a>http://ucek.in/faculty.php?did=1</a>"
+
+  utter_ec_non_teaching_faculty:
+  - text: " Sri. Noel Joe Boy,Sri. Saju S,Sri. Sreeraj S, Sri. Sreejith S. N. For further details visit <a>http://ucek.in/nonTeachingFaculty.php?did=1</a>" 
+
+  utter_ec_laboratory:
+  - text: "The Department of Electronics and Communication is well equipped with all the infrastructure facilities as required by the University norms. Laboratory equipments are regularly updated. The various laboratories under this department are listed below: Digital Electronics Lab  Electronics Devices and Circuits Lab Microcontroller Lab  Communication Engineering Lab  Communication System and Simulation Lab  Electronic Workshop  Integrated Circuits Lab  Digital Signal Processing Lab  Microwave and Optical Communication Lab"
+
+  utter_inquire_about_ec_head:
+  - text: "The current head of the ECE department is <preserve>Smt. Indusalini G</preserve>. She has been with the department for a long period and has extensive experience in both academia and industry. She's known for his innovative teaching methodsand is a dedicated mentor to both students and faculty and is always willing to lend a helping hand."
+  
+  utter_inquire_it_department:
+  - text: "The Department of Information Technology is one of the best departments of University College of Engineering, Kariavattom that started functioning in 2000.From the beginning itself, the departments has been rayed very high in academic circles. We are working with an objective to contribute our part to develop India as a Super Power in the area Information Technology by imparting knowledge of an international standard to young Engineers and Computer Scientists."
+
+  utter_it_faculty:
+  - text: "<preserve>Saina A R(UG Dean), Smt. Sangeetha S. Nair, Smt. Anupama Sathyan, Smt. Krishna J. S, Smt. Sabeena A. S, Smt. Reshma R, Sri. Arun B. I, Smt. Salu Lekshman</preserve>.  For further details visit link <a>http://ucek.in/faculty.php?did=3</a>"
+
+  utter_it_non_teaching_faculty:
+  - text: "<preserve>Smt. Seena R. S</preserve>. For further details visit <a>http://ucek.in/nonTeachingFaculty.php?did=3</a>" 
+
+  utter_it_laboratory:
+  - text: " The department has well equipped laboratories, which includes, Multimedia lab,Network lab."
+ 
+  utter_inquire_about_it_head:
+  - text: "The current head of the ECE department is <preserve>Smt. Sangeetha S. Nair</preserve>. She has been with the department for a long period and has extensive experience in both academia and industry. She's known for his innovative teaching methodsand is a dedicated mentor to both students and faculty and is always willing to lend a helping hand."
+
+  utter_inquire_general_department:
+  - text: "The General Department was started in the year 2000 comprising different departments like mathematics, Physics, Chemistry, Civil Engineering, Electrical Engineering and Mechanical Engineering.This Department of first year engineering aims to help the students to develop strong fundamentals in all basic courses."
+
+  utter_general_faculty:
+  - text: "For details visit : <a>http://ucek.in/faculty.php?did=13</a>"
+
+  utter_general_non_teaching_faculty:
+  - text: "For details visit : <a>ucek.in/nonTeachingFaculty.php?did=13</a>"
+  
+  utter_inquire_about_laboratories:
+  - text: "U.C.E.K is well equipped with all the infrastructure facilities as required by the University norms. Laboratory equipments are regularly updated. The various laboratories are : Computer Science Lab, Network Lab, Multimedia Lab, Digital Electronics Lab, Microcontroller Lab etc."
+  
+  utter_inquire_about_faculty:
+  - text: "Our college has highly qualified and experienced faculty across all departments including EC, CS, and IT. Our faculty members are passionate about teaching and have expertise in various fields. We have around 50 faculty members spanning across all departments. They use modern teaching methods and innovative techniques to ensure that our students get the best education possible. "
+    
+  utter_inquire_about_location:
+  - text: "University College Of Engineering  Golden Jubilee Building  University Campus, Kariavattom  Thiruvananthapuram - 695581  Ph: +91 471 2308874  Mob:9037119776,9388011160,9656468540  E-mail:ucekprincipal@gmail.com  Website: www.ucek.in"
+  
+  utter_history:
+  - text: "The University of Travancore, which later became the University of Kerala, was established in 1937.The college was established in the year 2000 and is functioning in the Golden Jubilee Complex of the Kerala University in the Kariavattom campus. The institution is fast acquiring a reputation for high quality education and fabulous faculty-student rapport. The college has already benefited greatly from its location, being adjacent to the Technopark, the IT hub of the state." 
+
+  utter_vision_mission:
+  - text: "Vision: To serve the state and the nation by graduating professionally talented, broadly educated engineers, conducting high quality research, developing innovative technologies thereby disseminating and preserving technical knowledge. Mission To attract and retain knowledgeable, creative, motivated and highly skilled individuals whose leadership and contributions uphold the college tenets of education, creativity, research and responsible public service."
+
+  utter_principal:
+  - text: "<preserve>Dr.BISHARATHU BEEVI. A</preserve>.  Contact No :+919496102279 +918078993898.  Email : bishabdul@gmail.com"
+
+  utter_UG_Dean:
+  - text: "<preserve>Smt. Saina A. R</preserve>. Contact No :9447218206  Email : sainashanutvm@gmail.com"
+
+  utter_office:
+  - text: "Working hours: Monday to Saturday 10:00 am to 5:00 pm.  Holidays All Second Saturdays, Sundays and Govt.Holidays.  For contact details visit <a>http://ucek.in/ucek-office</a>"
+
+  utter_ranks:
+  - text: " FIRST RANK (B.Tech Information Technology) <preserve>Mr.AnandaKrishnan R</preserve>.	2020.   For further details visit <a>http://ucek.in/university-ranks</a>"
+
+  utter_PTA:
+  - text: " The Parent Teacher Association (PTA) is a private organization of the parents of all students of the University College of Engineering, Kariavattam and the teaching faculties.  <preserve>Smt. Sabeena A.S</preserve>(Secretary ), Asst Professor, Dept of Information Technology 9946559271.  For further details visit <a>http://ucek.in/pta.php</a>"
+
+  utter_facilities:
+  - text: " Scholarship details: <a>http://ucek.in/scholarship.php</a>. College Bus:<a>http://ucek.in/college-bus</a>. Canteen  Health centre  Central WiFi facility"
+
+  utter_scholarship:
+  - text: "The students belonging to SC/ST/OEC and SEBC category are eligible for fee concession/stipend/lump sum grant etc. as per the norms stipulated by the Govt. of Kerala. Scholarship details: <a>http://ucek.in/scholarship.php</a>"
+
+  utter_college_bus:
+  - text: " College Bus: <a>http://ucek.in/college-bus</a>."
+
+  utter_canteen:
+  - text: " There are three canteens which provide high quality food to students at nominal rate. These canteens are frequently inspected by a team of University to ensure that health policies are strictly implemented. "
+
+  utter_library:
+  - text: "Our college library is a comprehensive resource hub, fostering a conducive environment for knowledge acquisition, research, and academic excellence. Working Hours of Library: Monday to Friday: 10:00 am to 5:00 pm.  Saturdays, Sundays, Govt. Holidays and Institution Holidays : Not Functioning.  For further details visit <a>http://ucek.in/centrallibrary.php</a>"
+
+  utter_anti_ragging_cell:
+  - text: "To prevent ragging in this campus an anti-ragging cell is constituted. In case of any ragging directly contact in person or over phone any of the members. The Anti Ragging Committee consists of The Principal as the chairperson and with the following members <a>http://ucek.in/anti-ragging</a>"
+
+  utter_clubs:
+  - text: "<preserve>UCEK</preserve> arts club is one of the biggest cultural club of University college of Engineering, one which encompasses music, dance and fine arts & craft, encasing them in a dynamic dosage of fun and entertainment. Three clubs comes under the Arts club: Dance Club,Music Club, Art and Craft Club. For more details visit <a>http://ucek.in/Arts.php</a>"
+
+  utter_sports:
+  - text: "Every year the college conducts various sports tournaments such as Cricket, Football and volleyball to shape up and enhance the sports talent in each student. Visit <a>http://ucek.in/sports</a> for more details"
+
+  utter_NSS:
+  - text: "Our <preserve>NSS</preserve> unit is now one among the most active NSS unit under <preserve>NSS Technical Cell, Govt. of Kerala</preserve>. The <preserve>NSS</preserve> Unit of this college was registered in 2013 (unit. No: 214). Our unit received Best Unit, Best Programme Officer & Best Volunteer awards from Directorate of Technical Education, Govt. of Kerala. Visit <a>http://ucek.in/nss</a> for more details"
+
+
+  utter_cells:
+  - text: " IEDC:<a>http://ucek.in/iedc.php</a>  Students Grievances & Appeal Committee Cell: <a>http://ucek.in/grievance.php</a>  Women Empowerment Cell: <a>http://ucek.in/womencell.php</a>  Green Protocol Cell: <a>http://ucek.in/Green%20Protocol%20cell.php</a>  Anti-Narco Club:<a>http://ucek.in/anc.php</a>  Research and Development Cell:<a>http://ucek.in/rd.php</a>  IEEE:<a>http://ucek.in/ieee.php</a>  FOSS Cell:<a>http://ucek.in/foss.php</a>  International Research Collaboration Cell (UCK-IRCC):<a>http://ucek.in/IRCC.php</a>  Industry Institute Interaction Cell: <a>http://ucek.in/iiic.php</a>"
+
+ 
+  utter_placement_cell:
+  - text: "Placement Officer : <preserve>ARUN B. I</preserve>., Assistant Professor in Dept. of Information Technology, Email id : uckplacement@yahoo.com, Mob : +91 9037119776.Visit <a>http://ucek.in/placement</a> for more details"
+
+  utter_cse_syllabus:
+  - text: "visit <a>https://www.keralauniversity.ac.in/downloads/3_S3_ECE_2020_syllabus.pdf</a> "
+
+  utter_ec_syllabus:
+  - text: "visit <a>https://www.keralauniversity.ac.in/downloads/3_S3_ECE_2020_syllabus.pdf</a> "
+  
+  utter_it_syllabus:
+  - text: "visit <a>https://www.keralauniversity.ac.in/downloads/3_S3_ECE_2020_syllabus.pdf</a> "
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,272 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: courses path 
+  steps: 
+  - intent: ask_about_courses
+  - action: utter_courses
+
+  
+- story: path
+  steps:
+  - intent: inquire_btech_subjects 
+  - action: utter_inquire_btech_subjects
+  
+- story: path
+  steps:
+  - intent: inquire_cse_department 
+  - action: utter_inquire_cse_department
+  
+- story: path
+  steps:
+  - intent: cse_faculty 
+  - action: utter_cse_faculty
+  
+- story: path
+  steps:
+  - intent: cse_non_teaching_faculty 
+  - action: utter_cse_non_teaching_faculty
+  
+- story: path
+  steps:
+  - intent: cse_laboratory 
+  - action: utter_cse_laboratory
+  
+- story: path
+  steps:
+  - intent: inquire_about_cse_head 
+  - action: utter_inquire_about_cse_head
+  
+- story: path
+  steps:
+  - intent: inquire_ec_department 
+  - action: utter_inquire_ec_department
+  
+- story: path
+  steps:
+  - intent: ec_faculty 
+  - action: utter_ec_faculty
+  
+- story: path
+  steps:
+  - intent: ec_non_teaching_faculty 
+  - action: utter_ec_non_teaching_faculty
+  
+- story: path
+  steps:
+  - intent: ec_laboratory 
+  - action: utter_ec_laboratory
+  
+- story: path
+  steps:
+  - intent: inquire_about_ec_head 
+  - action: utter_inquire_about_ec_head
+  
+- story: path
+  steps:
+  - intent: inquire_it_department 
+  - action: utter_inquire_it_department
+  
+- story: path
+  steps:
+  - intent: it_faculty 
+  - action: utter_it_faculty
+  
+- story: path
+  steps:
+  - intent: it_non_teaching_faculty 
+  - action: utter_it_non_teaching_faculty
+  
+- story: path
+  steps:
+  - intent: it_laboratory 
+  - action: utter_it_laboratory
+  
+- story: path
+  steps:
+  - intent: inquire_about_it_head 
+  - action: utter_inquire_about_it_head
+  
+- story: path
+  steps:
+  - intent: inquire_general_department 
+  - action: utter_inquire_general_department
+  
+- story: path
+  steps:
+  - intent: general_faculty 
+  - action: utter_general_faculty
+  
+- story: path
+  steps:
+  - intent: general_non_teaching_faculty 
+  - action: utter_general_non_teaching_faculty
+  
+- story: path
+  steps:
+  - intent: inquire_about_laboratories 
+  - action: utter_inquire_about_laboratories
+  
+- story: path
+  steps:
+  - intent: inquire_about_faculty 
+  - action: utter_inquire_about_faculty
+  
+- story: path
+  steps:
+  - intent: inquire_about_location 
+  - action: utter_inquire_about_location
+  
+- story: path
+  steps:
+  - intent: history 
+  - action: utter_history
+  
+- story: path
+  steps:
+  - intent: vision_and_mission 
+  - action: utter_vision_mission
+  
+- story: path
+  steps:
+  - intent: principal 
+  - action: utter_principal
+  
+- story: path
+  steps:
+  - intent: UG_Dean 
+  - action: utter_UG_Dean
+  
+- story: path
+  steps:
+  - intent: office 
+  - action: utter_office
+  
+- story: path
+  steps:
+  - intent: ranks 
+  - action: utter_ranks
+  
+- story: path
+  steps:
+  - intent: PTA 
+  - action: utter_PTA 
+  
+- story: path
+  steps:
+  - intent: facilities 
+  - action: utter_facilities       
+  
+- story: path
+  steps:
+  - intent: scholarship 
+  - action: utter_scholarship
+  
+- story: path
+  steps:
+  - intent: college_bus 
+  - action: utter_college_bus
+  
+- story: path
+  steps:
+  - intent: canteen 
+  - action: utter_canteen
+  
+- story: path
+  steps:
+  - intent: library 
+  - action: utter_library
+  
+- story: path
+  steps:
+  - intent: anti_ragging_cell 
+  - action: utter_anti_ragging_cell
+  
+- story: path
+  steps:
+  - intent: clubs 
+  - action: utter_clubs
+  
+- story: path
+  steps:
+  - intent: ec_syllabus 
+  - action: utter_ec_syllabus
+  
+- story: path
+  steps:
+  - intent: cse_syllabus 
+  - action: utter_cse_syllabus
+  
+- story: path
+  steps:
+  - intent: it_syllabus 
+  - action: utter_it_syllabus
+  
+- story: path
+  steps:
+  - intent: sports 
+  - action: utter_sports
+  
+- story: path
+  steps:
+  - intent: NSS 
+  - action: utter_NSS
+  
+- story: path
+  steps:
+  - intent: cells 
+  - action: utter_cells
+  
+- story: path
+  steps:
+  - intent: placement_cell 
+  - action: utter_placement_cell
+  
+- story: path
+  steps:
+  - intent: job_placement 
+  - action: utter_job_placement
+  
+- story: path
+  steps:
+  - intent: campus_hostel 
+  - action: utter_campus_hostel
+  
+- story: path
+  steps:
+  - intent: how_to_apply_to_college 
+  - action: utter_how_to_apply_to_college
+
+  
+- story: path
+  steps:
+  - intent: extracurricular_activities 
+  - action: utter_extracurricular_activities

@@ -1,0 +1,176 @@
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-17T12:20:09.534Z		 translate : false		 query: Tell me about extracarricular activities
+HTTP : POST 		 2023-06-17T12:20:14.205Z		 translate : false		 query: Tell me about UCEK
+HTTP : POST 		 2023-06-17T12:20:27.087Z		 translate : false		 query: How to get a job at UCEK
+HTTP : POST 		 2023-06-18T11:26:03.849Z		 translate : true		 query: hi
+HTTP : POST 		 2023-06-18T11:26:09.653Z		 translate : true		 query: hiiiiiiiii
+HTTP : POST 		 2023-06-18T11:26:27.194Z		 translate : false		 query: hi
+HTTP : POST 		 2023-06-18T11:26:33.295Z		 translate : true		 query: hi
+HTTP : POST 		 2023-06-18T11:27:37.570Z		 translate : true		 query: hi
+HTTP : POST 		 2023-06-18T11:28:52.872Z		 translate : true		 query: hi
+HTTP : POST 		 2023-06-18T11:30:34.134Z		 translate : false		 query: hi
+HTTP : POST 		 2023-06-18T11:39:05.293Z		 translate : false		 query: HI
+HTTP : POST 		 2023-06-18T11:47:34.946Z		 translate : false		 query: hey
+HTTP : POST 		 2023-06-18T11:57:18.415Z		 translate : false		 query: tell me about ucek
+HTTP : POST 		 2023-06-18T12:00:59.974Z		 translate : false		 query: hiii
+HTTP : POST 		 2023-06-18T12:01:35.368Z		 translate : false		 query: tell me about ucek
+HTTP : POST 		 2023-06-18T12:04:49.584Z		 translate : false		 query: hi
+HTTP : POST 		 2023-06-18T12:12:24.379Z		 translate : false		 query: hiiii
+HTTP : POST 		 2023-06-18T12:21:33.496Z		 translate : false		 query: hey bro rasa
+HTTP : POST 		 2023-06-18T12:21:41.977Z		 translate : false		 query: finu da thanks chellom
+HTTP : POST 		 2023-06-18T12:25:35.450Z		 translate : false		 query: hiiiii
+HTTP : POST 		 2023-06-18T12:25:47.159Z		 translate : false		 query: tell me about ucek
+HTTP : POST 		 2023-06-18T12:27:14.786Z		 translate : false		 query: tell me about placements
+HTTP : POST 		 2023-06-18T12:29:23.837Z		 translate : false		 query: tell me about placements
+HTTP : POST 		 2023-06-18T12:29:34.501Z		 translate : false		 query: tell me about placement cell
+HTTP : POST 		 2023-07-06T17:23:39.203Z		 translate : false		 query: hi
+HTTP : POST 		 2023-07-06T17:23:47.512Z		 translate : false		 query: fine how are you
+HTTP : POST 		 2023-07-06T17:24:31.953Z		 translate : false		 query: have a nice day
+HTTP : POST 		 2023-07-06T17:24:59.024Z		 translate : false		 query: extracarricular activities
+HTTP : POST 		 2023-07-06T17:25:14.415Z		 translate : true		 query: extracarricular activities
+HTTP : POST 		 2023-07-06T17:25:51.674Z		 translate : true		 query: hi
+HTTP : POST 		 2023-07-06T17:26:14.696Z		 translate : true		 query: ഹായ്
+HTTP : POST 		 2023-07-06T17:27:40.938Z		 translate : true		 query: കോളേജ് ഏതൊക്കെ കോഴ്സുകൾ വാഗ്ദാനം ചെയ്യുന്നു?
+HTTP : POST 		 2023-07-06T17:28:32.218Z		 translate : true		 query: കോളേജ് ഏതൊക്കെ കോഴ്സുകൾ വാഗ്ദാനം ചെയ്യുന്നു?
+HTTP : POST 		 2023-07-06T17:28:59.209Z		 translate : false		 query: Wwhat courses does the college offer?
+HTTP : POST 		 2023-07-06T17:30:09.899Z		 translate : false		 query: What courses does the college offer?
+HTTP : POST 		 2023-07-08T04:12:48.039Z		 translate : false		 query: Hii
+HTTP : POST 		 2023-07-08T04:12:59.305Z		 translate : false		 query: Im fine
+HTTP : POST 		 2023-07-08T04:13:12.074Z		 translate : false		 query: Telll me about courses
+HTTP : POST 		 2023-07-08T04:13:18.416Z		 translate : false		 query: college bus
+HTTP : POST 		 2023-07-08T04:13:24.139Z		 translate : false		 query: sports club
+HTTP : POST 		 2023-07-08T04:14:00.985Z		 translate : false		 query: is there any sports activities at ucek?
+HTTP : POST 		 2023-07-08T04:14:06.849Z		 translate : false		 query: sports
+HTTP : POST 		 2023-07-08T04:15:50.090Z		 translate : false		 query: കായിക പരിപാടി
+HTTP : POST 		 2023-07-08T04:16:00.135Z		 translate : true		 query: കായിക പരിപാടി
+HTTP : POST 		 2023-07-08T04:16:26.184Z		 translate : false		 query: sports program
+HTTP : POST 		 2023-07-08T04:16:30.979Z		 translate : false		 query: sports
+HTTP : POST 		 2023-07-08T04:16:36.448Z		 translate : false		 query: കായിക
+HTTP : POST 		 2023-07-08T04:17:08.216Z		 translate : true		 query: കായിക
+HTTP : POST 		 2023-07-08T04:20:42.304Z		 translate : false		 query: hi
+HTTP : POST 		 2023-07-08T04:20:52.283Z		 translate : false		 query: hey how are you
+HTTP : POST 		 2023-07-08T04:26:50.691Z		 translate : true		 query: tell me about ucek
+HTTP : POST 		 2023-07-08T04:28:46.085Z		 translate : false		 query: colllege history
+HTTP : POST 		 2023-07-08T07:26:16.459Z		 translate : false		 query: asd
+HTTP : POST 		 2023-07-08T07:26:36.719Z		 translate : false		 query: adsdasf
+HTTP : POST 		 2023-07-08T07:27:34.275Z		 translate : true		 query: adsfasf
+HTTP : POST 		 2023-07-08T07:33:58.276Z		 translate : false		 query: asd
+HTTP : POST 		 2023-07-08T07:34:43.684Z		 translate : true		 query: sdafaf
+HTTP : GET 		 2023-07-08T11:18:24.843Z		 translate : undefined		 query: hii
+HTTP : POST 		 2023-07-08T11:18:30.932Z		 translate : undefined		 query: hii
+HTTP : POST 		 2023-07-08T11:18:35.717Z		 translate : undefined		 query: hii
+HTTP : POST 		 2023-07-08T11:18:36.751Z		 translate : undefined		 query: hii
+HTTP : POST 		 2023-07-08T11:18:37.587Z		 translate : undefined		 query: hii
+HTTP : POST 		 2023-07-08T11:24:20.278Z		 translate : false		 query: hi
+HTTP : POST 		 2023-07-08T11:24:33.291Z		 translate : false		 query: tell me about courses
+HTTP : POST 		 2023-07-08T11:24:38.122Z		 translate : false		 query: college bus
+HTTP : POST 		 2023-07-08T11:24:43.644Z		 translate : false		 query: college bus
+HTTP : POST 		 2023-07-08T11:26:31.038Z		 translate : false		 query: tell me about coursez
+HTTP : POST 		 2023-07-08T11:26:44.874Z		 translate : true		 query: tell me about courses
+HTTP : POST 		 2023-07-08T11:28:32.836Z		 translate : true		 query: tell me about courses
+HTTP : POST 		 2023-07-08T11:29:17.033Z		 translate : true		 query: tell me about courses
+HTTP : POST 		 2023-07-08T11:30:33.988Z		 translate : true		 query: tell me about courses
+HTTP : POST 		 2023-07-08T12:33:34.056Z		 translate : true		 query: tell me about courses
+HTTP : POST 		 2023-07-08T12:35:47.179Z		 translate : true		 query: tell me about courses
+HTTP : POST 		 2023-07-08T12:53:03.149Z		 translate : true		 query: give me cse syllabus
+HTTP : POST 		 2023-07-08T12:56:10.972Z		 translate : false		 query: does ucek have a pta?
+HTTP : POST 		 2023-07-08T13:09:26.017Z		 translate : false		 query: cse non teaching faculty
+HTTP : POST 		 2023-07-08T13:10:24.385Z		 translate : true		 query: cse non teaching faculty
+HTTP : POST 		 2023-07-08T13:10:41.019Z		 translate : true		 query: cse teaching faculty
+HTTP : POST 		 2023-07-08T13:12:49.848Z		 translate : true		 query: cse teaching faculty
+HTTP : POST 		 2023-07-08T13:12:59.751Z		 translate : false		 query: cse teaching faculty
+HTTP : POST 		 2023-07-08T13:18:55.858Z		 translate : false		 query: cse non teaching faculty
+HTTP : POST 		 2023-07-08T13:19:05.449Z		 translate : true		 query: cse non teaching faculty
+HTTP : POST 		 2023-07-08T14:05:19.672Z		 translate : false		 query: cse non teaching faculty
+HTTP : POST 		 2023-07-08T14:11:19.089Z		 translate : false		 query: cse non teaching faculty
+HTTP : POST 		 2023-07-08T14:13:15.298Z		 translate : false		 query: cse non teaching faculty
+HTTP : POST 		 2023-07-08T14:14:01.039Z		 translate : false		 query: cse non teaching faculty
+HTTP : POST 		 2023-07-08T14:14:08.084Z		 translate : false		 query: cse teaching faculty
+HTTP : POST 		 2023-07-08T14:14:18.876Z		 translate : true		 query: cse non teaching faculty
+HTTP : POST 		 2023-07-08T14:14:24.554Z		 translate : true		 query: cse teaching faculty
+HTTP : POST 		 2023-07-08T14:15:19.222Z		 translate : true		 query: cse teaching faculty
+HTTP : POST 		 2023-07-08T14:16:15.320Z		 translate : true		 query: cse non teaching faculty
+HTTP : POST 		 2023-07-08T14:16:25.862Z		 translate : true		 query: cse teaching faculty
+HTTP : POST 		 2023-07-08T14:23:57.491Z		 translate : true		 query: cse teaching faculty
+HTTP : POST 		 2023-07-08T14:24:19.826Z		 translate : true		 query: cse teaching faculty
+HTTP : POST 		 2023-07-08T14:24:32.069Z		 translate : true		 query: pta
+HTTP : POST 		 2023-07-08T14:28:36.175Z		 translate : true		 query: pta
+HTTP : POST 		 2023-07-08T14:29:15.829Z		 translate : true		 query: pta
+HTTP : POST 		 2023-07-08T14:29:47.491Z		 translate : true		 query: cse faculty
+HTTP : POST 		 2023-07-08T14:30:09.450Z		 translate : false		 query: cse faculty
+HTTP : POST 		 2023-07-08T14:30:23.582Z		 translate : true		 query: cse faculty
+HTTP : POST 		 2023-07-08T14:30:35.238Z		 translate : false		 query: cse faculty
+HTTP : POST 		 2023-07-08T14:32:00.599Z		 translate : true		 query: cse faculty
+HTTP : POST 		 2023-07-08T14:32:13.640Z		 translate : false		 query: cse faculty
+HTTP : POST 		 2023-07-08T14:32:48.559Z		 translate : false		 query: nss unit
+HTTP : POST 		 2023-07-08T14:32:57.460Z		 translate : true		 query: nss unit
+HTTP : POST 		 2023-07-08T14:43:02.082Z		 translate : true		 query: tell me about ucke
+HTTP : POST 		 2023-07-08T14:43:14.789Z		 translate : false		 query: tell me about courses
+HTTP : POST 		 2023-07-08T14:46:10.884Z		 translate : false		 query: tell me about courses
+HTTP : POST 		 2023-07-08T14:46:40.419Z		 translate : false		 query: askdnfa jsndjfkasnd nafsjdfj kasdnf sjdn snd asndjf  j nfas  jsdf jasd fn nkj nkjdsnjasdsjk fnasdf jksdnfajkdsndfjkansdjf nasd asjkd fnasdnf asdjf  sdjf nasjk
+HTTP : POST 		 2023-07-08T14:46:54.937Z		 translate : false		 query: pta
+HTTP : POST 		 2023-07-08T14:54:32.793Z		 translate : false		 query: faculty
+HTTP : POST 		 2023-07-08T14:59:53.371Z		 translate : false		 query: faculty
+HTTP : POST 		 2023-07-08T15:00:21.691Z		 translate : false		 query: faculty
+HTTP : POST 		 2023-07-08T15:00:36.768Z		 translate : false		 query: faculty
+HTTP : POST 		 2023-07-08T15:01:04.750Z		 translate : false		 query: faculty
+HTTP : POST 		 2023-07-08T15:22:21.276Z		 translate : false		 query: faculty
+HTTP : POST 		 2023-07-08T15:22:53.221Z		 translate : true		 query: faculty
+HTTP : POST 		 2023-07-08T15:23:21.971Z		 translate : true		 query: faculty
+HTTP : POST 		 2023-07-08T16:45:40.702Z		 translate : true		 query: hi
+HTTP : POST 		 2023-07-08T16:48:12.482Z		 translate : true		 query: hi
+HTTP : POST 		 2023-07-08T16:53:19.315Z		 translate : false		 query: hi
+HTTP : POST 		 2023-07-08T16:53:27.348Z		 translate : true		 query: hi
+HTTP : POST 		 2023-07-08T16:54:21.129Z		 translate : true		 query: dsa
+HTTP : POST 		 2023-07-08T16:55:37.015Z		 translate : true		 query: asdf
+HTTP : POST 		 2023-07-08T16:56:36.661Z		 translate : true		 query: hi
+HTTP : POST 		 2023-07-08T16:59:23.143Z		 translate : true		 query: asdf
+HTTP : POST 		 2023-07-08T17:00:09.189Z		 translate : true		 query: asdf
+HTTP : POST 		 2023-07-08T17:00:50.655Z		 translate : true		 query: adf
+HTTP : POST 		 2023-07-08T17:01:13.730Z		 translate : true		 query: adsf
+HTTP : POST 		 2023-07-08T17:02:09.190Z		 translate : true		 query: adsf
+HTTP : POST 		 2023-07-08T17:03:19.786Z		 translate : true		 query: asfd

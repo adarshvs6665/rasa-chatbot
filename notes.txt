@@ -1,0 +1,59 @@
+
+RASA working : 
+    - AI assistants have to fulfill two tasks: understanding the user and giving the correct responses. The Rasa Stack tackles these tasks with the natural language understanding component Rasa NLU and the dialogue management component Rasa Core.
+    - A pipeline defines different components which process a user message sequentially and ultimately lead to the classification of user messages into intents and the extraction of entities.
+        * Tasks done during a pipeline are :
+            - Tokenizing
+            - Featurizing
+            - Intent classification
+            - Entity extraction
+            - Response selection 
+        * Tokenizers : 
+            - Tokenizers split text into tokens. If you want to split intents into multiple labels
+                * WhitespaceTokenizer (default)
+                    - separates into tokens using white space 
+                * JiebaTokenizer
+                    - for chinese language 
+                * MITIE
+                    - some library
+                * SpacyTokenizer
+                    - using spaCy library
+        * Featurizers 
+            - Featurize the tokens 
+                * RegexFeaturizer (default)
+                    - creates a vector representation of user message using regular expressions.
+                * MitieFeaturizer
+                * SpacyFeaturizer
+                * ConveRTFeaturizer
+                * LanguageModelFeaturizer
+                * RegexFeaturizer
+                * CountVectorsFeaturizer
+                * LexicalSyntacticFeaturizer
+        * Intent classifier training algorithms :
+            - Classification of user input to intents 
+                * DIETClassifier (default)
+                    - Dual Intent Entity Transformer (DIET) used for intent classification and entity extraction
+                    - A sequence of entity labels is predicted through a Conditional Random Field (CRF) tagging layer on top of the transformer output sequence corresponding to the input sequence of tokens.
+                * MitieIntentClassifier 
+                    - uses MITIE library
+                * SklearnIntentClassifier
+                    - uses the spaCy library to load pretrained language models and classify using them.
+                * LogisticRegressionClassifier
+                    - this classifier uses scikit-learn's logistic regression implementation to perform intent classification. 
+                * FallbackClassifier
+                    - it a fallback mechanism which acts if the confidence of prediction is low 
+        * Entity Extractors
+            - Entity extractors extract entities, such as person names or locations, from the user message.
+                * EntitySynonymMapper (default)
+                    - Maps synonymous entity values to the same value.
+                    - This component will allow you to map the entities New York City and NYC to nyc.
+                * SpacyEntityExtractor
+                * CRFEntityExtractor
+                * DucklingEntityExtractor
+                * DIETClassifier
+                * RegexEntityExtractor
+        * Selectors 
+            - Selectors predict a bot response from a set of candidate responses.
+                * ResponseSelector (default)
+                    - Selects appropriate response 
+                    

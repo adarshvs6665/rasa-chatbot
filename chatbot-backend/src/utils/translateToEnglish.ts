@@ -2,7 +2,7 @@ import fs from "fs";
 import translate from "translate-google";
 import {config} from './config'
 
-const translateToMalayalam = async (input: string) => {
+const translateToEnglish = async (input: string) => {
     return await translate(
         input,
         { to: 'en' }
@@ -16,4 +16,4 @@ const translateToMalayalam = async (input: string) => {
         });
 }
 
-export default translateToMalayalam
+export default translateToEnglish

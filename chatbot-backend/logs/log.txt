@@ -174,3 +174,10 @@ HTTP : POST 		 2023-07-08T17:00:50.655Z		 translate : true		 query: adf
 HTTP : POST 		 2023-07-08T17:01:13.730Z		 translate : true		 query: adsf
 HTTP : POST 		 2023-07-08T17:02:09.190Z		 translate : true		 query: adsf
 HTTP : POST 		 2023-07-08T17:03:19.786Z		 translate : true		 query: asfd
+HTTP : POST 		 2023-07-26T15:35:39.174Z		 translate : false		 query: cse department hod
+HTTP : POST 		 2023-07-26T15:36:18.781Z		 translate : false		 query: head of the department of computer engineering
+HTTP : POST 		 2023-07-26T15:36:35.004Z		 translate : false		 query: computer department head od
+HTTP : POST 		 2023-07-26T15:36:46.108Z		 translate : false		 query: hod
+HTTP : POST 		 2023-07-26T15:37:10.777Z		 translate : false		 query: hod of it department
+HTTP : POST 		 2023-07-26T15:37:54.920Z		 translate : false		 query: hod of IT department
+HTTP : POST 		 2023-07-26T15:38:04.067Z		 translate : false		 query: IT department hod

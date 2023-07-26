@@ -138,7 +138,7 @@ responses:
   - text: " The department has well equipped laboratories, which includes, Multimedia lab,Network lab."
  
   utter_inquire_about_it_head:
-  - text: "The current head of the ECE department is <preserve>Smt. Sangeetha S. Nair</preserve>. She has been with the department for a long period and has extensive experience in both academia and industry. She's known for his innovative teaching methodsand is a dedicated mentor to both students and faculty and is always willing to lend a helping hand."
+  - text: "The current head of the IT department is <preserve>Smt. Sangeetha S. Nair</preserve>. She has been with the department for a long period and has extensive experience in both academia and industry. She's known for his innovative teaching methodsand is a dedicated mentor to both students and faculty and is always willing to lend a helping hand."
 
   utter_inquire_general_department:
   - text: "The General Department was started in the year 2000 comprising different departments like mathematics, Physics, Chemistry, Civil Engineering, Electrical Engineering and Mechanical Engineering.This Department of first year engineering aims to help the students to develop strong fundamentals in all basic courses."

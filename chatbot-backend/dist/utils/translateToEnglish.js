@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const translate_google_1 = __importDefault(require("translate-google"));
 const config_1 = require("./config");
-const translateToMalayalam = (input) => __awaiter(void 0, void 0, void 0, function* () {
+const translateToEnglish = (input) => __awaiter(void 0, void 0, void 0, function* () {
     return yield (0, translate_google_1.default)(input, { to: 'en' })
         .then((res) => {
         console.log(res);
@@ -24,4 +24,4 @@ const translateToMalayalam = (input) => __awaiter(void 0, void 0, void 0, functi
         return config_1.config.translationErrorCode;
     });
 });
-exports.default = translateToMalayalam;
+exports.default = translateToEnglish;

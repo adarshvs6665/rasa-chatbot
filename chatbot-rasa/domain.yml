@@ -215,13 +215,13 @@ responses:
   - text: "Placement Officer : <preserve>ARUN B. I</preserve>., Assistant Professor in Dept. of Information Technology, Email id : uckplacement@yahoo.com, Mob : +91 9037119776.Visit <a>http://ucek.in/placement</a> for more details"
 
   utter_cse_syllabus:
-  - text: "visit <a>https://www.keralauniversity.ac.in/downloads/3_S3_ECE_2020_syllabus.pdf</a> "
+  - text: "visit <a>https://www.keralauniversity.ac.in/downloads/3_S3_CSE_2020_syllabus.pdf</a> "
 
   utter_ec_syllabus:
   - text: "visit <a>https://www.keralauniversity.ac.in/downloads/3_S3_ECE_2020_syllabus.pdf</a> "
   
   utter_it_syllabus:
-  - text: "visit <a>https://www.keralauniversity.ac.in/downloads/3_S3_ECE_2020_syllabus.pdf</a> "
+  - text: "visit <a>https://www.keralauniversity.ac.in/downloads/3_S3_IT_2020_syllabus.pdf</a> "
 
 session_config:
   session_expiration_time: 60
